@@ -15,7 +15,7 @@ namespace CrudCliente.Controllers
         {
             _context = context;
         }
-
+        
         [HttpGet]
         public IActionResult Get()
         {
