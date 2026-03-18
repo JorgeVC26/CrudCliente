@@ -1,0 +1,22 @@
+﻿# Archivos de configuración y caché de Visual Studio (EL MÁS IMPORTANTE)
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Carpetas de compilación (donde se crean los .exe y .dll)
+[Bb]in/
+[Oo]bj/
+
+# Archivos de base de datos local (para que no pesen en el repo)
+*.mdf
+*.ldf
+*.db
+
+# Paquetes de librerías (NuGet restaurará estos automáticamente)
+packages/
+node_modules/
+
+# Archivos temporales de sistema
+.DS_Store
+Thumbs.db
